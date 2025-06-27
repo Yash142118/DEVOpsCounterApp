@@ -29,7 +29,7 @@ jobs:
                   export PATH="$NVM_DIR/versions/node/$(nvm version)/bin:$PATH" 
         
                   cd ${{ secrets.APP_DIR }} 
-                  git pull origin master 
+                  git pull origin main 
                   npm install 
         npm run build 
         nohup serve -s build --listen 3000 > out.log 2>&1 & 
