@@ -11,7 +11,7 @@ function Counter() {
     <p>Use the below buttons to Increase or Decrease the counter value.</p>
         <div className='Parent-Counter'>
           <div className='Counter-Adjustments'>
-            <p>INCREASE</p>
+            <p>INCREASE FROM HERE</p>
             <button
               className='Increase-Counter Counter-button'
               onClick={() => setInitialValue(initialValue + 1)}
@@ -26,7 +26,7 @@ function Counter() {
           </div>
 
           <div className='Counter-Adjustments'>
-            <p>DECREASE</p>
+            <p>DECREASE FROM HERE</p>
             <button
               className='Decrease-Counter Counter-button'
               onClick={() => setInitialValue(initialValue === 0 ? initialValue : initialValue - 1)}
